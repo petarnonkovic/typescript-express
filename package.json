@@ -1,0 +1,37 @@
+{
+  "name": "typescript-express",
+  "version": "0.0.1",
+  "description": "an example series to get started with TypeScript",
+  "main": "src/srever.js",
+  "scripts": {
+    "start": "webpack --colors && concurrently -r -n \"Webpack,Nodemon\" \"npm run webpack-watch\" \"npm run server-watch\"",
+    "webpack-watch": "webpack --watch --colors",
+    "server-watch": "nodemon --watch dist/server.js dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petarnonkovic/typescript-express.git"
+  },
+  "keywords": [
+    "typescript",
+    "express",
+    "webpack"
+  ],
+  "author": "petar@dev",
+  "license": "MIT",
+  "homepage": "https://github.com/petarnonkovic/typescript-express/homepage",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11",
+    "ts-loader": "^5.4.4",
+    "typescript": "^3.4.5",
+    "webpack": "^4.30.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "webpack-cli": "^3.3.1"
+  }
+}
