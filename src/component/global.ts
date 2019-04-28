@@ -1,6 +1,6 @@
-namespace Global{
+namespace Global {
 	export const name: string = "Tirth";
-	const test: string = `
+	export const test: string = `
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor ligula cursus, interdum dolor ut, porta velit. Donec mollis non tortor quis suscipit. Donec porta risus leo, a euismod augue consectetur lacinia. Nunc fringilla libero posuere, scelerisque lorem ac, ornare lectus. Sed urna lorem, porttitor sed scelerisque vel, porta sit amet dui. Nam neque erat, blandit non nulla id, feugiat ultricies mi. Sed malesuada maximus mauris a porttitor.
 
 Donec vulputate luctus ullamcorper. Aliquam varius malesuada neque ut mattis. Proin quis sollicitudin urna. Quisque varius placerat risus eu hendrerit. Phasellus sed augue at quam placerat sagittis non sed lacus. Curabitur dapibus diam ut ante eleifend, id vulputate risus molestie. Aenean vitae enim feugiat eros ultrices molestie non id augue. Vestibulum viverra congue augue et convallis. Aliquam vel scelerisque dolor.
